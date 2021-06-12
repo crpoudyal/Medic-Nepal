@@ -10,8 +10,6 @@
 html {
   font-size: 62.5%;
   overflow-x: hidden;
-  scroll-behavior: smooth;
-  scroll-padding-top: 6rem;
 }
 body {
   background: #f7f7f7;
@@ -268,4 +266,43 @@ section {
   font-size: 2rem;
   color: #333;
   padding: 1rem;
+}
+.footer {
+  display: flex;
+  gap: 15rem;
+}
+
+.footer-sec {
+  background: #000;
+  text-align: center;
+}
+.desc #para {
+  text-align: justify;
+  font-size: 2rem;
+  color: #fff;
+}
+.desc a {
+  font-size: 3rem;
+}
+.desc i {
+  font-size: 3rem;
+  color: #ff3838;
+}
+
+.footer-sec .share {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer-sec .credit {
+  padding: 2.5rem 1rem;
+  color: #fff;
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+.footer-sec .credit span {
+  color: #ff3838;
 }
