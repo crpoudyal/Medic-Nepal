@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap");
-
+/* global */
 * {
   font-family: "Poppins", sans-serif;
   margin: 0;
@@ -14,6 +14,13 @@ html {
 body {
   background: #f7f7f7;
 }
+section {
+  padding: 2rem 9%;
+}
+
+/* global */
+
+/* header and Navbar */
 header {
   position: fixed;
   top: 0;
@@ -109,10 +116,9 @@ header .navbar a:hover {
   padding: 0.5rem 1.5rem;
   display: none;
 }
-section {
-  padding: 2rem 9%;
-}
+/* header and Navbar */
 
+/* home sections */
 .home {
   display: flex;
   flex-wrap: wrap;
@@ -148,7 +154,7 @@ section {
   color: #666;
   padding: 1rem 0;
 }
-
+/* home sections */
 .btn {
   display: inline-block;
   padding: 0.8rem 3rem;
@@ -183,7 +189,7 @@ section {
 .btn:hover {
   color: #fff;
 }
-
+/* popular category */
 .category .box-container {
   display: flex;
   flex-wrap: wrap;
@@ -230,6 +236,7 @@ section {
   padding: 1rem 0;
   text-align: justify;
 }
+/* popular category */
 
 .heading {
   text-align: center;
@@ -241,7 +248,7 @@ section {
 .heading span {
   color: #ff3838;
 }
-
+/* how it works */
 .steps {
   display: flex;
   flex-wrap: wrap;
@@ -267,6 +274,55 @@ section {
   color: #333;
   padding: 1rem;
 }
+/* how it works */
+
+/* product   */
+.product {
+  margin-top: 8rem;
+}
+.product .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.product .box-container .box {
+  padding: 2rem;
+  background: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border: 0.1rem solid rgba(0, 0, 0, 0.3);
+  border-radius: 0.5rem;
+  text-align: center;
+  flex: 1 1 30rem;
+  position: relative;
+}
+
+.product .box-container .box img {
+  height: 25rem;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.product .box-container .box .offer {
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+  background: #ff3838;
+  color: #fff;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.product .box-container .box h3 {
+  color: #333;
+  font-size: 2.5rem;
+  padding-top: 1rem;
+}
+/* product   */
+
+/* footer */
 .footer {
   display: flex;
   gap: 15rem;
@@ -306,3 +362,4 @@ section {
 .footer-sec .credit span {
   color: #ff3838;
 }
+/* footer */
