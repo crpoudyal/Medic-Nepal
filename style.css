@@ -322,6 +322,38 @@ header .navbar a:hover {
 }
 /* product   */
 
+/* Individual product sec */
+.details {
+  display: flex;
+  gap: 7rem;
+}
+#p-title {
+  font-size: 3rem;
+}
+.product-img img {
+  border-radius: 20px;
+}
+.tags {
+  display: inline-block;
+  padding: 0.4rem 1.2rem;
+  background: #d8d8d8;
+  color: #666;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  margin-top: 1rem;
+}
+.p-details {
+  font-size: 1.5rem;
+}
+#price {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+/* Individual product sec */
+
 /* footer */
 .footer {
   display: flex;
