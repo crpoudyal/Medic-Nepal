@@ -14,19 +14,9 @@
 </head>
 <body>
       <!-- header section starts  -->
-<header>
-    <a href="index.html" class="logo"><i class="fas fa-clinic-medical"></i>Medic Nepal</a>
-    <div id="menu-bar" class="fas fa-bars"></div>
-    <nav class="navbar">
-        <a href="index.html">Home</a>
-        <a href="medicine.html">Medicine</a>
-        <a href="#">Pharmacy</a>
-    </nav>
-    <div id="nav-icon">
-        <a href="#" class=""><i class="fa fa-cart-arrow-down"></i></a>
-        <a href="#" class=""><i class="fa fa-user"></i> user</a>
-    </div>
-</header>
+<?php
+require 'require/header.php';
+?>
 <!-- header section ends -->
 
 <!-- Individual product sec -->
@@ -83,21 +73,9 @@
 <!-- Related Products -->
 
 <!-- footer section  -->
-<section class="footer-sec">
-    <div class="footer">
-        <div class="desc">
-            <a href="#" class="logo"><i class="fas fa-clinic-medical"></i> Medic Nepal</a>
-            <p id="para">Medic Nepal provides medicine as prescribed by doctor on your door steps with easy payment Methods</p>
-        </div>
-        <div class="share">
-            <a href="index.php" class="btn">Home</a>
-            <a href="medicine.php" class="btn">Medicine</a>
-            <a href="#" class="btn">Pharmacy</a>
-        </div>
-    </div><br/>
-    <hr/>
-    <h1 class="credit"> created by <span> CR Poudyal </span> | All rights reserved! </h1>
-</section>
+<?php
+require 'require/footer.php'
+?>
 
 
 <!-- custom js file link  -->
