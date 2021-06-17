@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
      <!-- custom css file link  -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Medic Nepal | Medicine Nepal</title>
 </head>
@@ -32,7 +32,7 @@
 <!-- Individual product sec -->
 <section class="product details">
     <div class="product-img">
-        <img src="/images/ensure.png" alt="">
+        <img src="images/ensure.png" alt="">
     </div>
     <div class="p-details">
         <h1 id="p-title">Ensure Diabetes Care Powder - Vanilla Flavour 400 gm (Pet Jar)</h1>
@@ -90,8 +90,8 @@
             <p id="para">Medic Nepal provides medicine as prescribed by doctor on your door steps with easy payment Methods</p>
         </div>
         <div class="share">
-            <a href="index.html" class="btn">Home</a>
-            <a href="medicine.html" class="btn">Medicine</a>
+            <a href="index.php" class="btn">Home</a>
+            <a href="medicine.php" class="btn">Medicine</a>
             <a href="#" class="btn">Pharmacy</a>
         </div>
     </div><br/>
@@ -101,6 +101,6 @@
 
 
 <!-- custom js file link  -->
-<script src="script.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

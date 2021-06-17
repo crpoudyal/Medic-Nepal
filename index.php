@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
      <!-- custom css file link  -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Medic Nepal | Medicine Nepal</title>
 </head>
@@ -18,8 +18,8 @@
     <a href="index.html" class="logo"><i class="fas fa-clinic-medical"></i>Medic Nepal</a>
     <div id="menu-bar" class="fas fa-bars"></div>
     <nav class="navbar">
-        <a href="index.html">Home</a>
-        <a href="medicine.html">Medicine</a>
+        <a href="index.php">Home</a>
+        <a href="medicine.php">Medicine</a>
         <a href="#">Pharmacy</a>
     </nav>
     <div id="nav-icon">
@@ -147,8 +147,8 @@
             <p id="para">Medic Nepal provides medicine as prescribed by doctor on your door steps with easy payment Methods</p>
         </div>
         <div class="share">
-            <a href="index.html" class="btn">Home</a>
-            <a href="medicine.html" class="btn">Medicine</a>
+            <a href="index.php" class="btn">Home</a>
+            <a href="medicine.php" class="btn">Medicine</a>
             <a href="#" class="btn">Pharmacy</a>
         </div>
     </div><br/>
@@ -161,6 +161,6 @@
 
 
 <!-- custom js file link  -->
-<script src="script.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
