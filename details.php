@@ -20,11 +20,11 @@ require 'require/header.php';
 <!-- header section ends -->
 
 <!-- Individual product sec -->
-<section class="product details">
-    <div class="product-img">
+<section class="home">
+    <div class="image" id="product-img">
         <img src="images/ensure.png" alt="">
     </div>
-    <div class="p-details">
+    <div class="content">
         <h1 id="p-title">Ensure Diabetes Care Powder - Vanilla Flavour 400 gm (Pet Jar)</h1>
         <span class="tags">Diabetes</span> 
         <span class="tags">Powder</span>

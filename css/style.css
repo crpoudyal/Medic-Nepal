@@ -278,14 +278,10 @@ a {
 /* product   */
 
 /* Individual product sec */
-.details {
-  display: flex;
-  gap: 7rem;
-}
 #p-title {
   font-size: 3rem;
 }
-.product-img img {
+#product-img img {
   border-radius: 20px;
 }
 .tags {

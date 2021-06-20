@@ -23,12 +23,12 @@
 <section class="product" id="product-top">
     <h1 class="heading">COVID-19 Essentials</h1>
     <div class="box-container">
-        <div class="box">
+        <div class="box" onclick="location.href='details.php'">
             <span class="offer">10% off</span>
             <img src="images/sanitizer.png" alt="">
             <h1>Tri-Activ Instant Hand Sanitizer 500 ml</h1>
             <h3>Rs.57</h3>
-            <a href="details.php" class="btn">Add to Cart</a>
+            <a href="#" class="btn">Add to Cart</a>
         </div>
         <div class="box">
             <span class="offer">10% off</span>
