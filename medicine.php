@@ -20,7 +20,7 @@
 <!-- header section ends -->
 
 <!-- product section starts  -->
-<section class="product" id="product">
+<section class="product" id="product-top">
     <h1 class="heading">COVID-19 Essentials</h1>
     <div class="box-container">
         <div class="box">

@@ -232,7 +232,7 @@ a {
 /* how it works */
 
 /* product   */
-.product {
+#product-top {
   margin-top: 8rem;
 }
 .product .box-container {
@@ -399,6 +399,6 @@ a {
 
 @media (max-width: 450px) {
   html {
-    font-size: 50%;
+    font-size: 40%;
   }
 }
