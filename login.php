@@ -13,18 +13,13 @@
     <title>Medic Nepal | Medicine Nepal</title>
 </head>
 <body>
-      <!-- header section starts  -->
-<?php
-require 'require/header.php';
-?>
-<!-- header section ends -->
-
  <!-- login -->
 
 <section class="login" id="login">
     <h1 class="heading">User<span> LogIn</span></h1>
     <div class="row">
         <div class="image">
+        <a href="index.php" id="reg-span">Back to Home</a>
             <img src="images/login.png" alt="">
         </div>
         <form action="">
@@ -38,13 +33,5 @@ require 'require/header.php';
     </div>
 </section>
  <!-- login -->
-
- <!-- footer section  -->
-<?php
-require 'require/footer.php';
-?>
-
-<!-- custom js file link  -->
-<script src="./js/script.js"></script>
 </body>
 </html>

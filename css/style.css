@@ -307,10 +307,6 @@ a {
 /* Individual product sec */
 
 /* Login */
-.login {
-  margin-top: 8rem;
-}
-
 .login .row {
   padding: 2rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
