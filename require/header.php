@@ -7,7 +7,6 @@
         <a href="#">Pharmacy</a>
     </nav>
     <div id="nav-icon">
-        <a href="#" class=""><i class="fa fa-cart-arrow-down"></i></a>
-        <a href="#" class=""><i class="fa fa-user"></i> user</a>
+        <a href="login.php" class="login-btn">Login</a>
     </div>
 </header>
