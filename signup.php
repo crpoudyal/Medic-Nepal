@@ -22,18 +22,21 @@ require 'require/header.php';
  <!-- login -->
 
 <section class="login" id="login">
-    <h1 class="heading">User<span> LogIn</span></h1>
+    <h1 class="heading">User<span> Registration</span></h1>
     <div class="row">
         <div class="image">
             <img src="images/login.png" alt="">
         </div>
         <form action="">
             <div class="inputBox">
+                <input type="email" placeholder="E-mail"><br/><br/>
                 <input type="text" placeholder="username"><br/><br/>
-                <input type="password" placeholder="Password">
+                <input type="password" placeholder="Password"><br/><br/>
+                <input type="password" placeholder="Conform Password"><br/><br/>
+                <input type="number" placeholder="Phone No."><br/><br/>
             </div><br/>
-            <input type="submit" value="Login" class="login-btn"><br/><br/>
-            <p id="register">Doesn't have an account ? <a href="signup.php" id="reg-span">Register Now</a><p>
+            <input type="submit" value="Register" class="login-btn"><br/><br/>
+            <p id="register">Already have an account ? <a href="login.php" id="reg-span">LogIn Now</a><p>
         </form>
     </div>
 </section>
