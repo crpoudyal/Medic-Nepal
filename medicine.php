@@ -27,28 +27,28 @@
             <span class="offer">10% off</span>
             <img src="images/sanitizer.png" alt="">
             <h1>Tri-Activ Instant Hand Sanitizer 500 ml</h1>
-            <h3>Rs.57</h3>
+            <p id="price">Rs.<span id="del">770</span> 623</p>
             <a href="#" class="btn">Add to Cart</a>
         </div>
         <div class="box">
             <span class="offer">10% off</span>
             <img src="images/sanitizer.png" alt="">
             <h1>Tri-Activ Instant Hand Sanitizer 500 ml</h1>
-            <h3>Rs.57</h3>
+            <p id="price">Rs.<span id="del">70</span> 23</p>
             <a href="#" class="btn">Add to Cart</a>
         </div>
         <div class="box">
             <span class="offer">10% off</span>
             <img src="images/sanitizer.png" alt="">
             <h1>Tri-Activ Instant Hand Sanitizer 500 ml</h1>
-            <h3>Rs.57</h3>
+            <p id="price">Rs.<span id="del">77</span> 62</p>
             <a href="#" class="btn">Add to Cart</a>
         </div>
         <div class="box">
             <span class="offer">10% off</span>
             <img src="images/sanitizer.png" alt="">
             <h1>Tri-Activ Instant Hand Sanitizer 500 ml</h1>
-            <h3>Rs.57</h3>
+            <p id="price">Rs.<span id="del">370</span> 280</p>
             <a href="#" class="btn">Add to Cart</a>
         </div>
     </div>
@@ -61,28 +61,28 @@
             <span class="offer">10% off</span>
             <img src="images/ensure.png" alt="">
             <h1>Ensure Diabetes Care Powder - Vanilla Flavour 400 gm (Pet Jar)</h1>
-            <h3>Rs.656</h3>
+            <p id="price">Rs.<span id="del">770</span> 623</p>
             <a href="#" class="btn">Add to Cart</a>
         </div>
         <div class="box">
             <span class="offer">10% off</span>
             <img src="images/ensure.png" alt="">
             <h1>Ensure Diabetes Care Powder - Vanilla Flavour 400 gm (Pet Jar)</h1>
-            <h3>Rs.656</h3>
+            <p id="price">Rs.<span id="del">770</span> 623</p>
             <a href="#" class="btn">Add to Cart</a>
         </div>
         <div class="box">
             <span class="offer">10% off</span>
             <img src="images/ensure.png" alt="">
             <h1>Ensure Diabetes Care Powder - Vanilla Flavour 400 gm (Pet Jar)</h1>
-            <h3>Rs.656</h3>
+            <p id="price">Rs.<span id="del">770</span> 623</p>
             <a href="#" class="btn">Add to Cart</a>
         </div>
         <div class="box">
             <span class="offer">10% off</span>
             <img src="images/ensure.png" alt="">
             <h1>Ensure Diabetes Care Powder - Vanilla Flavour 400 gm (Pet Jar)</h1>
-            <h3>Rs.656</h3>
+            <p id="price">Rs.<span id="del">770</span> 623</p>
             <a href="#" class="btn">Add to Cart</a>
         </div>
     </div>
