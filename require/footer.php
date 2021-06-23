@@ -8,7 +8,7 @@
         <div class="share">
             <a href="index.php" class="btn">Home</a>
             <a href="medicine.php" class="btn">Medicine</a>
-            <a href="#" class="btn">Pharmacy</a>
+            <a href="pharmacy.php" class="btn">Pharmacy</a>
         </div>
     </div><br/>
     <hr/>

@@ -4,7 +4,7 @@
     <nav class="navbar">
         <a href="index.php">Home</a>
         <a href="medicine.php">Medicine</a>
-        <a href="#">Pharmacy</a>
+        <a href="pharmacy.php">Pharmacy</a>
     </nav>
     <div id="nav-icon">
         <a href="login.php" class="login-btn">Login</a>
