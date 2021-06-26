@@ -27,6 +27,7 @@
                 <input type="text" placeholder="username"><br/><br/>
                 <input type="password" placeholder="Password">
             </div><br/>
+            <p id="register">Forget Password? <a href="#" id="reg-span">Recover Now</a><p><br/>
             <input type="submit" value="Login" class="login-btn"><br/><br/>
             <p id="register">Doesn't have an account ? <a href="signup.php" id="reg-span">Register Now</a><p>
         </form>

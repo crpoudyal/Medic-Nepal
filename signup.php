@@ -25,7 +25,6 @@
         <form action="">
             <div class="inputBox">
                 <input type="email" placeholder="E-mail"><br/><br/>
-                <input type="text" placeholder="username"><br/><br/>
                 <input type="password" placeholder="Password"><br/><br/>
                 <input type="password" placeholder="Conform Password"><br/><br/>
                 <input type="number" placeholder="Phone No."><br/><br/>
