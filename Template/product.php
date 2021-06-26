@@ -1,57 +1,33 @@
-<!-- header section starts  -->
-<?php
-require 'header.php';
-?>
-<!-- header section ends -->
-
-<!-- Individual product sec -->
-<?php
-require 'Template/p_details.php'
-?>
-
-<!-- Individual product sec -->
-
-<!-- Related Products -->
-<section class="product" id="product">
-    <h1 class="heading">Related Medicine</h1>
+<section class="product" id="product-top">
+    <h1 class="heading">COVID-19 Essentials</h1>
     <div class="box-container">
-        <div class="box">
+        <div class="box" onclick="location.href='details.php'">
             <span class="offer">10% off</span>
             <img src="images/sanitizer.png" alt="">
             <h1>Tri-Activ Instant Hand Sanitizer 500 ml</h1>
-            <h3>Rs.57</h3>
-            <a href="" class="btn">Add to Cart</a>
-        </div>
-        <div class="box">
-            <span class="offer">10% off</span>
-            <img src="images/sanitizer.png" alt="">
-            <h1>Tri-Activ Instant Hand Sanitizer 500 ml</h1>
-            <h3>Rs.57</h3>
+            <p id="price">Rs.<span id="del">770</span> 623</p>
             <a href="#" class="btn">Add to Cart</a>
         </div>
         <div class="box">
             <span class="offer">10% off</span>
             <img src="images/sanitizer.png" alt="">
             <h1>Tri-Activ Instant Hand Sanitizer 500 ml</h1>
-            <h3>Rs.57</h3>
+            <p id="price">Rs.<span id="del">70</span> 23</p>
             <a href="#" class="btn">Add to Cart</a>
         </div>
         <div class="box">
             <span class="offer">10% off</span>
             <img src="images/sanitizer.png" alt="">
             <h1>Tri-Activ Instant Hand Sanitizer 500 ml</h1>
-            <h3>Rs.57</h3>
+            <p id="price">Rs.<span id="del">77</span> 62</p>
+            <a href="#" class="btn">Add to Cart</a>
+        </div>
+        <div class="box">
+            <span class="offer">10% off</span>
+            <img src="images/sanitizer.png" alt="">
+            <h1>Tri-Activ Instant Hand Sanitizer 500 ml</h1>
+            <p id="price">Rs.<span id="del">370</span> 280</p>
             <a href="#" class="btn">Add to Cart</a>
         </div>
     </div>
-
 </section>
-<!-- Related Products -->
-
-<!-- footer section  -->
-<?php
-require 'Template/footer.php';
-?>
-
-<!-- custom js file link  -->
-<script src="js/script.js"></script>
