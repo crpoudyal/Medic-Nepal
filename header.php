@@ -11,6 +11,11 @@
     <link rel="stylesheet" href="css/style.css">
 
     <title>Medic Nepal | Medicine Nepal</title>
+
+ <?php
+    // function.php file required
+    require 'function.php';
+?>
 </head>
 <body>
 <header>
