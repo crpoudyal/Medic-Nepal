@@ -10,6 +10,7 @@ require 'Template/product.php';
 ?>
 <!-- product section ends -->
 
+
 <!-- footer section  -->
 <?php
 require 'Template/footer.php';

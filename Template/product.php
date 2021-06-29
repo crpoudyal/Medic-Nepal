@@ -1,5 +1,5 @@
 <?php
-$get_product_data =$Fetch_medicine ->getData();
+$get_product_data =$Fetch_medicine ->getData($table = "Medicine");
 ?>
 
 
