@@ -1,5 +1,5 @@
 <?php
-$get_category_data =$Fetch_medicine ->getData($table = "category");
+$get_category_data =$Fetch_medicine ->getData($table = "Category");
 ?>
 
 
