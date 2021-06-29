@@ -9,5 +9,7 @@ require ('database/Fetch_medicine.php');
 // DBController object
 $db = new DBController();
 
-$Fetch_Medicine = new Fetch_medicine($db);
+$Fetch_medicine = new Fetch_medicine($db);
+
+
 

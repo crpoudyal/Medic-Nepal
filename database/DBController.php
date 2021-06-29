@@ -2,10 +2,10 @@
 class DBController
 {
     // Database Connection Properties
-    protected $host = 'localhost';
-    protected $user = 'root';
-    protected $password = '';
-    protected $database = "Medic_Nepal";
+    public $host = 'localhost';
+    public $user = 'root';
+    public $password = '';
+    public $database = "Medic_Nepal";
 
     // connection property
     public $con = null;
