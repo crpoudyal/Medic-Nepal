@@ -1,16 +1,19 @@
 <?php
+function pr($arr){
+	echo '<pre>';
+	print_r($arr);
+}
 
-// require MySQL Connection
-require ('database/DBController.php');
+function prx($arr){
+	echo '<pre>';
+	print_r($arr);
+	die();
+}
 
-// require medicine class
-require ('database/Fetch_medicine.php');
-
-// DBController object
-$db = new DBController();
-
-$Fetch_medicine = new Fetch_medicine($db);
-
-
-
-
+function get_safe_value($con,$str){
+	if($str!=''){
+		$str=trim($str);
+		return mysqli_real_escape_string($con,$str);
+	}
+}
+?>

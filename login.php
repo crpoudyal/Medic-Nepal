@@ -1,3 +1,22 @@
+<?php
+require 'database/DBController.php';
+require 'function.php';
+$msg='';
+if(isset($_POST['submit'])){
+   $email = get_safe_value($con,$_POST['email']); 
+   $password = get_safe_value($con,$_POST['password']); 
+   $sql = "select * from User where email='$email' password='$password'";
+   $res = mysqli_query($con,$sql);
+   $count = mysqli_num_rows($res);
+   if($count > 0){
+    $_SESSION['USER_LOGIN']='yes';
+    $_SESSION['USER_EMAIL']=$email;
+
+   }else{
+       $msg = "Please ! Enter correct login details";
+   }
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,15 +41,17 @@
         <a href="index.php" id="reg-span">Back to Home</a>
             <img src="images/login.png" alt="">
         </div>
-        <form action="">
+        <form method="POST">
             <div class="inputBox">
-                <input type="text" placeholder="username"><br/><br/>
-                <input type="password" placeholder="Password">
+                <input type="email" name="email" placeholder="Email" required><br/><br/>
+                <input type="password" name="password" placeholder="Password" required>
             </div><br/>
             <p id="register">Forget Password? <a href="#" id="reg-span">Recover Now</a><p><br/>
-            <input type="submit" value="Login" class="login-btn"><br/><br/>
+            <input type="submit" value="Login" name="submit" class="login-btn"><br/><br/>
             <p id="register">Doesn't have an account ? <a href="signup.php" id="reg-span">Register Now</a><p>
+            <div><?php echo $msg ?></div>
         </form>
+       
     </div>
 </section>
  <!-- login -->
