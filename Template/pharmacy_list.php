@@ -1,5 +1,7 @@
 <?php
-$get_pharmacy_data =$Fetch_medicine ->getData($table = "Pharmacy");
+require 'database/DBController.php';
+require 'function.php';
+$get_pharmacy_data = get_Data($con,'Pharmacy');
 ?>
 
 <section class="pharmacy" id="pharmacy">
@@ -7,7 +9,7 @@ $get_pharmacy_data =$Fetch_medicine ->getData($table = "Pharmacy");
     <?php foreach($get_pharmacy_data as $phy){ ?>
     <div class="box-container">
         <div class="box">
-            <img src="<?php echo $m['img_name'] ?? "images/ph4.jpg" ?>" alt="">
+            <img src="images/ph4.jpg" alt="">
             <div class="content">
                 <h3><?php echo $phy['phy_name'] ?></h3>
                 <p><?php echo $phy['phy_details'] ?></p>
