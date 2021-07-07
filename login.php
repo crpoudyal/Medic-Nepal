@@ -5,12 +5,14 @@ $msg='';
 if(isset($_POST['submit'])){
    $email = get_safe_value($con,$_POST['email']); 
    $password = get_safe_value($con,$_POST['password']); 
-   $sql = "select * from User where email='$email' password='$password'";
+   $sql = "select * from User where email='$email' and password='$password'";
    $res = mysqli_query($con,$sql);
    $count = mysqli_num_rows($res);
    if($count > 0){
     $_SESSION['USER_LOGIN']='yes';
     $_SESSION['USER_EMAIL']=$email;
+    header('location:index.php');
+    die();
 
    }else{
        $msg = "Please ! Enter correct login details";
