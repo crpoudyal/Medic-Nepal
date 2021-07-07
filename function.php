@@ -16,4 +16,13 @@ function get_safe_value($con,$str){
 		return mysqli_real_escape_string($con,$str);
 	}
 }
+function get_Data($con,$table){
+    $sql = "select * from $table";
+    $res = mysqli_query($con,$sql);
+    $data = array();
+    while($row=mysqli_fetch_assoc($res)){
+		$data[]=$row;
+	}
+	return $data;
+}
 ?>
