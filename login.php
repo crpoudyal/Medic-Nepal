@@ -9,7 +9,7 @@ if(isset($_POST['submit'])){
    $res = mysqli_query($con,$sql);
    $count = mysqli_num_rows($res);
    if($count > 0){
-    $_SESSION['USER_LOGIN']='yes';
+    $_SESSION['USER_LOGIN']='True';
     $_SESSION['USER_EMAIL']=$email;
     header('location:index.php');
     die();

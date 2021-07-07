@@ -1,3 +1,6 @@
+<?php
+require 'database/DBController.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,7 +24,12 @@
         <a href="pharmacy.php">Pharmacy</a>
     </nav>
     <div id="nav-icon">
-    <a href="login.php" id="login-b" class="login-btn">Login</a>  
+    <?php if(isset($_SESSION['USER_LOGIN'])){?>
+        <a href="#" id="username" class="fas fa-user"> <?php echo $_SESSION['USER_EMAIL']?></a><br/>
+        <a href="logout.php" id="login-b">Logout</a>
+    <?php }else{?>
+    <a href="login.php" id="login-b" class="login-btn">Login</a>
+    <?php }?>
     </div> 
     <div id="menu-bar" class="fas fa-bars"></div>
 </header>
